@@ -1,0 +1,9 @@
+import re
+
+regex='[abc]'
+string='code'
+out=re.match(regex,string)
+if(out):
+	print('matched')
+else:
+    print('unmatched')
